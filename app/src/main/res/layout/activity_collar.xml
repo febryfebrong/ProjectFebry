@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.fp29499x.projectfebry.Collar">
+    <ImageView
+        android:id="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/collar"
+        android:layout_weight="0"/>
+
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/purchase">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="30sp"
+            android:onClick="minus"
+            />
+
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="0"
+            android:textSize="30sp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:text="+"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:onClick="plus"/>
+
+        <TextView
+            android:id="@+id/price_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Total: Rp"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/purchase"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PURCHASE"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:onClick="purchase"/>
+
+</RelativeLayout>

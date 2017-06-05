@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.fp29499x.projectfebry.Accesories">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="16dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mainaccesories"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/openingaccesories"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="#80ffffff"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="collar">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/collar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COLLAR"
+            android:shadowColor="#000000"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:background="#80ffffff"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="shoes">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shoes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoes"
+            android:shadowColor="#000000"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:background="#80ffffff"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="dogbed">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dogbed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BED"
+            android:shadowColor="#000000"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:background="#80ffffff"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fp29499x.projectfebry">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/dg_laucher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Masuk" />
+        <activity
+            android:name=".Food"
+            android:label="OUR BEST FOOD" />
+        <activity
+            android:name=".Accesories"
+            android:label="OUR COLLECTION" />
+        <activity
+            android:name=".Clothing"
+            android:label="OUR COLLECTION" />
+        <activity
+            android:name=".ContactUs"
+            android:label="CONTACT US" />
+        <activity
+            android:name=".Toy"
+            android:label="OUR COLLECTION" />
+        <activity android:name=".Thanks" />
+        <activity android:name=".Pedigree"
+            android:label="Pedigree Food"/>
+        <activity android:name=".Royal"
+            android:label="Royal Food"/>
+        <activity android:name=".Purina"
+            android:label="Purina Food"/>
+        <activity android:name=".Iams"
+            android:label="Iams Food"/>
+        <activity android:name=".Cesar"
+            android:label="Cesar Food"/>
+        <activity android:name=".Eukanoba"
+            android:label="Eukanoba Food"/>
+        <activity android:name=".Shopping" />
+        <activity android:name=".Collar"
+            android:label="COLLAR"/>
+        <activity android:name=".Shoes"
+            android:label="SHOES"/>
+        <activity android:name=".Dogbed"
+            android:label="DOG BED"/>
+        <activity android:name=".Rope"
+            android:label="DOG ROPE"/>
+        <activity android:name=".Doll"
+            android:label="CUTE DOLL"/>
+        <activity android:name=".Ball"
+            android:label="CHEWY BALL"/>
+        <activity android:name=".Disney"
+            android:label="Disney Character"/>
+        <activity android:name=".Superhero"
+            android:label="Marvel Super Hero"/>
+        <activity android:name=".Animal"
+            android:label="I AM NOT A DOG"/>
+        <activity android:name=".Singer"
+            android:label="My Favorite SInger"/>
+        <activity android:name=".Sleeping"
+            android:label="Sleeping Time"/>
+        <activity android:name=".Party">
+            android:label="Lets Go to The Club"
+        </activity>
+    </application>
+
+</manifest>

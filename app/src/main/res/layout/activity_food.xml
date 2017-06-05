@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.fp29499x.projectfebry.Food">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="16dp"
+        android:layout_weight="0">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mainfood"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/openingfood"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="#80ffffff"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="pedigree">
+
+            <ImageView
+                android:id="@+id/gambarsatu"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pedigree"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pedigree"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="royal">
+
+            <ImageView
+                android:id="@+id/gambardua"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/royal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Royal Canin"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="purina">
+
+            <ImageView
+                android:id="@+id/gambartiga"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/purina"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purina"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="iams">
+
+            <ImageView
+                android:id="@+id/gambarempat"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iams"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IAMS"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="cesar">
+
+            <ImageView
+                android:id="@+id/gambarlima"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cesar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cesar"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:onClick="eukanoba">
+
+            <ImageView
+                android:id="@+id/gambarenam"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/eukanoba"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eukanoba"
+                android:shadowColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:background="#80ffffff"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>

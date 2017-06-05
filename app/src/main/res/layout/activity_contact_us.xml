@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.fp29499x.projectfebry.ContactUs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/contact"/>
+    <TextView
+        android:id="@+id/dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:text="Febrianty Amirah Pratama"/>
+
+    <TextView
+    android:id="@+id/tiga"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/dua"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:textSize="15sp"
+    android:text="Phone   : 082115572609"/>
+
+    <TextView
+        android:id="@+id/empat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiga"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:text="Email     : febrianty.amirrah@sbm-itb.ac.id"/>
+
+    <TextView
+        android:id="@+id/lima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empat"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:text="Adress  : Jalan Jend. SUdirman Kav 58"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lima"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:background="#70ffffff"
+        android:text="Opening Hours : 9.00 - 21.00 WIB"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        android:hint="Email:"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:background="#80ffffff"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/email"
+        android:hint="Question:"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:background="#80ffffff"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="Submit"
+        android:text="SUBMIT"/>
+
+</RelativeLayout>
